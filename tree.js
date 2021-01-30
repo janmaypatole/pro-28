@@ -1,5 +1,5 @@
-class Tree extends baseclass{
+class Tree extends BaseClass{
     constructor(x,y,width,height){
-     this.Image = loadImage(tree.png)  
+     this.Image = loadImage('/Plucking mangoes/tree.png')  
     }
     }

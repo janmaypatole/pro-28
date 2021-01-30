@@ -5,7 +5,7 @@ const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 
 
-var stone 
+var stone,ground 
 function preload()
 {
 	
@@ -20,7 +20,7 @@ function setup() {
 
 	//Create the Bodies Here.
    stone = new Stone(200,400,40,50)
-
+   ground = new Ground(750,450,700,25)
 	Engine.run(engine);
   
 }
@@ -32,6 +32,7 @@ function draw() {
   
 
   stone.display();
+  ground.display();
   drawSprites();
  
 }
